@@ -1,0 +1,6 @@
+if SHIELD_AMSEL_68
+
+config ZMK_KEYBOARD_NAME
+    default "Amsel-68"
+
+endif # SHIELD_AMSEL_68
