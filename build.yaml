@@ -18,4 +18,4 @@
 ---
 
 board: [ "nice_nano" ]
-shield: [ "corne_left", "corne_right" ]
+shield: [ "amsel_68" ]
