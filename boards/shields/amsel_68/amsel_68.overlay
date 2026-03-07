@@ -38,10 +38,10 @@
             , <&pro_micro 0 GPIO_ACTIVE_HIGH>
             // D2/17 is reserved for I2C
             // D3/20 is reserved for I2C
+            , <&pro_micro 6 GPIO_ACTIVE_HIGH> //fucked up the soldering order so 2 are swapped
+            , <&pro_micro 7 GPIO_ACTIVE_HIGH>
             , <&pro_micro 4 GPIO_ACTIVE_HIGH>
             , <&pro_micro 5 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 6 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 7 GPIO_ACTIVE_HIGH>
             , <&pro_micro 8 GPIO_ACTIVE_HIGH>
             , <&pro_micro 9 GPIO_ACTIVE_HIGH>
             , <&gpio1 1  GPIO_ACTIVE_HIGH> //middle "extra" pin
